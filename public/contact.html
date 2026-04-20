@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>お問い合わせ</h1>
+    <nav>
+      <a href="/">ホーム</a>
+      <a href="/about">紹介</a>
+      <a href="/contact">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="/contact" method="POST">
+      <p>
+        <label>名前</label><br>
+        <input type="text" name="name" required>
+      </p>
+
+      <p>
+        <label>メールアドレス</label><br>
+        <input type="email" name="email" required>
+      </p>
+
+      <p>
+        <label>お問い合わせ内容</label><br>
+        <textarea name="message" rows="6" required></textarea>
+      </p>
+
+      <button type="submit">送信</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2026 My Express Site</p>
+  </footer>
+</body>
+</html>

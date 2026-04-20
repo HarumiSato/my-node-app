@@ -9,5 +9,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarumiSato/my-node-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HarumiSato/my-node-app/issues"
+  },
+  "homepage": "https://github.com/HarumiSato/my-node-app#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "sqlite3": "^6.0.1",
+    "validator": "^13.15.35"
+  }
 }
